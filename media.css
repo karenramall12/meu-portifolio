@@ -1,0 +1,22 @@
+
+    @media (max-width: 768px) 
+    
+{body {
+        padding: 0;
+        text-align: center;
+    }
+
+    section#contato, .projeto, main {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 80px;
+        height:auto;
+    }
+   }

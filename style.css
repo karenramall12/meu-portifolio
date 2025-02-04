@@ -1,0 +1,87 @@
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foto-fixa {
+    width: 100px; 
+    height: 90px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    
+    top: 50px; 
+    right: 500px; 
+    border: 2px solid white; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.182);
+    overflow-x: hidden; 
+}
+
+    
+
+
+header {
+    background: orange;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.181);
+}
+header img{
+    display: inline-block;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+.projeto, main, section#contato {
+    background: white;
+    color: rgb(79, 52, 2);
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.181);
+    font-size: 20px;
+}
+
+
+section#contato a {
+    text-decoration: none;
+    color: black;
+}
+
+section#contato a:hover {
+    background-color: orange;
+    color: white;
+}
+
+footer {
+    background: orange;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+   
+    margin: 0 auto;
+}
+
