@@ -11,8 +11,7 @@
     border-radius: 50%; 
     object-fit: cover; 
     
-    top: 50px; 
-    right: 500px; 
+  
     border: 2px solid white; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
@@ -33,7 +32,7 @@ body, html {
 header {
     background: orange;
     color: white;
-    padding: 20px;
+    padding: 2px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.181);
 }
 header img{
@@ -70,6 +69,17 @@ section#contato a:hover {
     color: white;
 }
 
+
+
+section#projetos a:hover{
+    background-color: orange;
+    color: white;
+
+}
+
+section#projetos a {
+    text-decoration: none;
+    color: black;}
 footer {
     background: orange;
     color: white;
